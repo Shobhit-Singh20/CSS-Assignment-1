@@ -1,0 +1,57 @@
+
+
+ body{
+     background-color: bisque ;
+ }
+
+#header{
+    background-color:GRAY; 
+    text-align:center; 
+    border-bottom:1px SOLID BLACK; 
+    color:WHITE; 
+    line-height:50px;
+    font-size:40px;
+    position : fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+.content{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.add1{
+    width: 80px;
+    display: inline-block
+    
+}
+.add2{
+     vertical-align: middle;
+}
+.ch{
+    text-align: justify;
+    margin-left: 50%;
+    margin-top: -1.5%;
+}
+.hobbies{
+    margin-left: -10%;
+}
+
+.submit{
+    margin-right: 60px;
+    padding: 5px;
+}
+
+.reset{
+    padding: 5px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:right;
+    margin-right: 5px;
+}
